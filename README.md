@@ -1,15 +1,15 @@
 # Adonis fullstack application
 Full framework from NodeJS and using MVC pattern.
+----------------------------------------------------
 
 All Feature Learning:
 AUTHNENTICATION
 1. Login
 2. Register
-3. Connection to DB
+3. Connection to DB Sqlite ( default )
 
 CRUD
 - on progress
-
 
 
 ## Controller
@@ -29,3 +29,5 @@ adonis migration:run
 
 ## Run Server
 adonis serve --dev
+
+This is repository is record of my journey learning about adonis JS for build website development.
