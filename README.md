@@ -1,31 +1,30 @@
-# Adonis fullstack application
+# Adonis fullstack application - MVC
 
-This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
+All Feature Learning:
+AUTHNENTICATION
+1. Login
+2. Register
+3. Connection to DB
 
-1. Bodyparser
-2. Session
-3. Authentication
-4. Web security middleware
-5. CORS
-6. Edge template engine
-7. Lucid ORM
-8. Migrations and seeds
-
-## Setup
-
-Use the adonis command to install the blueprint
-
-```bash
-adonis new yardstick
-```
-
-or manually clone the repo and then run `npm install`.
+CRUD
+- on progress
 
 
-### Migrations
 
-Run the following command to run startup migrations.
+## Controller
+adonis make:controller -name --type=http
 
-```js
+
+## Model
+adonis make:model -name --type=http
+
+
+## View
+adonis make:view -name --type=http
+
+## Migration
 adonis migration:run
-```
+
+
+## Run Server
+adonis serve --dev
