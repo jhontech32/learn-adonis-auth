@@ -1,4 +1,5 @@
-# Adonis fullstack application - MVC
+# Adonis fullstack application
+Full framework from NodeJS and using MVC pattern.
 
 All Feature Learning:
 AUTHNENTICATION
